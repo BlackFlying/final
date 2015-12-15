@@ -20,7 +20,8 @@ function loss = computeLoss(model, data)
         else % if there are more than one choice
             positive_results = each_prediction(each_prediction ~= 0);
             % multiple positive results selection strategy
-            final_predictions(i) = positive_results(1); % randomly selected
+%             final_predictions(i) = positive_results(1); % select the first one
+            final_predictions(i) = datasample(positive_results, 1);
         end
     end
     % MAE mean absolute error

@@ -1,0 +1,34 @@
+\begin{thebibliography}{1}
+
+\bibitem{dasgupta2008hierarchical}
+Sanjoy Dasgupta and Daniel Hsu.
+\newblock Hierarchical sampling for active learning.
+\newblock In {\em Proceedings of the 25th international conference on Machine
+  learning}, pages 208--215. ACM, 2008.
+
+\bibitem{hoi2006batch}
+Steven~CH Hoi, Rong Jin, Jianke Zhu, and Michael~R Lyu.
+\newblock Batch mode active learning and its application to medical image
+  classification.
+\newblock In {\em Proceedings of the 23rd international conference on Machine
+  learning}, pages 417--424. ACM, 2006.
+
+\bibitem{hsu2002comparison}
+Chih-Wei Hsu and Chih-Jen Lin.
+\newblock A comparison of methods for multiclass support vector machines.
+\newblock {\em Neural Networks, IEEE Transactions on}, 13(2):415--425, 2002.
+
+\bibitem{joshi2009multi}
+Ajay~J Joshi, Fatih Porikli, and Nikolaos Papanikolopoulos.
+\newblock Multi-class active learning for image classification.
+\newblock In {\em Computer Vision and Pattern Recognition, 2009. CVPR 2009.
+  IEEE Conference on}, pages 2372--2379. IEEE, 2009.
+
+\bibitem{long2010active}
+Bo~Long, Olivier Chapelle, Ya~Zhang, Yi~Chang, Zhaohui Zheng, and Belle Tseng.
+\newblock Active learning for ranking through expected loss optimization.
+\newblock In {\em Proceedings of the 33rd international ACM SIGIR conference on
+  Research and development in information retrieval}, pages 267--274. ACM,
+  2010.
+
+\end{thebibliography}

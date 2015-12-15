@@ -22,10 +22,8 @@ function loss = pool_based_loss_rank()
     % start selection
     for i = 1 : SELECT_SIZE
         display(sprintf('running %d round', i));
-        predictions = getAllPredictions(models, rest_data);
-        % select data based on predictions
-        % if more than one selected data, select one randomly
-        [selected_observations, rest_data] = getObservations(predictions, rest_data);
+        [selected_observations, selected_index] = datasample(rest_data,1);
+        [rest_data, ~] = removerows(rest_data, selected_index);
         % update data with selected observation
         data = updateData(data, selected_observations, NUM_LABELS);
         % retrain model
